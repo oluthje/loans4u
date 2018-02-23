@@ -1,11 +1,20 @@
-var Date1 = new Date();
+var output;
 
-function TimeSince(){
-	var Date2 = new Date();
-	Date2 = Date2/1000;
+function CreateDebt(){
+ var Date1 = date();
+ alert(Date1);
+ var First_Name = document.getElementById("First_Name");
+ var Last_Name = document.getElementById("Last_Name");
+ var Endebted1 = document.getElementById("Endebted1");
+ var Endebted2 = document.getElementById("Endebted2");
+ var Debt_Amount = document.getElementById("Debt_Amount");
+ var Interest_Rate = document.getElementById("Interest_Rate");
+ var Interest_Period = document.getElementById("Interest_Period");
+}
 
-	Date1 = Date1/1000;
+function date(){
+	var d = new Date();
 
-	var output = Date2 - Date1;
-	alert(output);
+	return(d.getYear()*365 + d.getDate());
+
 }
