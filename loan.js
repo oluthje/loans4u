@@ -16,3 +16,7 @@ function date(){
 	return(d.getYear()*365 + d.getDate());
 
 }
+
+function checkLogin() {
+	window.location.href = "loans4u.html";
+}
