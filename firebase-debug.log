@@ -1,0 +1,126 @@
+[debug] [2018-03-09T17:03:32.761Z] ----------------------------------------------------------------------
+[debug] [2018-03-09T17:03:32.763Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-03-09T17:03:32.763Z] CLI Version:   3.17.4
+[debug] [2018-03-09T17:03:32.764Z] Platform:      darwin
+[debug] [2018-03-09T17:03:32.764Z] Node Version:  v8.9.4
+[debug] [2018-03-09T17:03:32.764Z] Time:          Fri Mar 09 2018 09:03:32 GMT-0800 (PST)
+[debug] [2018-03-09T17:03:32.764Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-09T17:03:32.776Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-09T17:03:32.776Z] > authorizing via signed-in user
+[debug] [2018-03-09T17:03:32.777Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-09T17:03:32.778Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/sUiLmCdo5Dcj4CEOXH84J4b_q3EQbgqSoFXxP5DkJ_U',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Mar 09 2018 09:03:32 GMT-0800 (PST)
+[debug] [2018-03-09T17:03:32.927Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-09T17:03:32.942Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/loans4u-c9bc1  
+  
+ Fri Mar 09 2018 09:03:32 GMT-0800 (PST)
+[debug] [2018-03-09T17:03:33.675Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-09T17:03:33.676Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/loans4u-c9bc1/tokens  
+  
+ Fri Mar 09 2018 09:03:33 GMT-0800 (PST)
+[debug] [2018-03-09T17:03:34.891Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/ru/Documents/GitHub/loans4u'...
+[info] 
+[debug] [2018-03-09T17:03:34.895Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/loans4u-c9bc1  
+  
+ Fri Mar 09 2018 09:03:34 GMT-0800 (PST)
+[debug] [2018-03-09T17:03:35.623Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-09T17:03:35.623Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/900725078179/clients/_:getWebAppConfig  
+  
+ Fri Mar 09 2018 09:03:35 GMT-0800 (PST)
+[debug] [2018-03-09T17:03:40.439Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-09T17:03:40.474Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:18)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at Server.emit (events.js:208:7)
+    at emitListeningNT (net.js:1378:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-03-09T17:04:19.118Z] ----------------------------------------------------------------------
+[debug] [2018-03-09T17:04:19.120Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-03-09T17:04:19.120Z] CLI Version:   3.17.4
+[debug] [2018-03-09T17:04:19.120Z] Platform:      darwin
+[debug] [2018-03-09T17:04:19.120Z] Node Version:  v8.9.4
+[debug] [2018-03-09T17:04:19.121Z] Time:          Fri Mar 09 2018 09:04:19 GMT-0800 (PST)
+[debug] [2018-03-09T17:04:19.121Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-09T17:04:19.135Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-09T17:04:19.135Z] > authorizing via signed-in user
+[debug] [2018-03-09T17:04:19.137Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/loans4u-c9bc1  
+  
+ Fri Mar 09 2018 09:04:19 GMT-0800 (PST)
+[debug] [2018-03-09T17:04:19.542Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-09T17:04:19.542Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/loans4u-c9bc1/tokens  
+  
+ Fri Mar 09 2018 09:04:19 GMT-0800 (PST)
+[debug] [2018-03-09T17:04:20.117Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/ru/Documents/GitHub/loans4u'...
+[info] 
+[debug] [2018-03-09T17:04:20.121Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/loans4u-c9bc1  
+  
+ Fri Mar 09 2018 09:04:20 GMT-0800 (PST)
+[debug] [2018-03-09T17:04:21.266Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-09T17:04:21.266Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/900725078179/clients/_:getWebAppConfig  
+  
+ Fri Mar 09 2018 09:04:21 GMT-0800 (PST)
+[debug] [2018-03-09T17:04:21.735Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-09T17:04:21.762Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:18)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at Server.emit (events.js:208:7)
+    at emitListeningNT (net.js:1378:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-03-09T17:05:14.724Z] ----------------------------------------------------------------------
+[debug] [2018-03-09T17:05:14.726Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-03-09T17:05:14.727Z] CLI Version:   3.17.4
+[debug] [2018-03-09T17:05:14.727Z] Platform:      darwin
+[debug] [2018-03-09T17:05:14.727Z] Node Version:  v8.9.4
+[debug] [2018-03-09T17:05:14.727Z] Time:          Fri Mar 09 2018 09:05:14 GMT-0800 (PST)
+[debug] [2018-03-09T17:05:14.727Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-09T17:05:14.743Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-09T17:05:14.743Z] > authorizing via signed-in user
+[debug] [2018-03-09T17:05:14.745Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/loans4u-c9bc1  
+  
+ Fri Mar 09 2018 09:05:14 GMT-0800 (PST)
+[debug] [2018-03-09T17:05:15.375Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-09T17:05:15.376Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/loans4u-c9bc1/tokens  
+  
+ Fri Mar 09 2018 09:05:15 GMT-0800 (PST)
+[debug] [2018-03-09T17:05:15.725Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/ru/Documents/GitHub/loans4u'...
+[info] 
+[debug] [2018-03-09T17:05:15.728Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/loans4u-c9bc1  
+  
+ Fri Mar 09 2018 09:05:15 GMT-0800 (PST)
+[debug] [2018-03-09T17:05:16.416Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-09T17:05:16.416Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/900725078179/clients/_:getWebAppConfig  
+  
+ Fri Mar 09 2018 09:05:16 GMT-0800 (PST)
+[debug] [2018-03-09T17:05:17.247Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-09T17:05:17.276Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:18)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at Server.emit (events.js:208:7)
+    at emitListeningNT (net.js:1378:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error] 
+[error] Error: An unexpected error has occurred.

@@ -4,18 +4,37 @@
 			loans4u!
 		</title>
 		<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
-<script>
+		<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-database.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-firestore.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-messaging.js"></script>
+
+	<!-- Leave out Storage -->
+	<!-- <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-storage.js"></script> -->
+
+		<script>
   // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyD5M5S0Xsz6Svi6zG5Bt23wzuhw8QpGoT4",
-    authDomain: "loans4u-475cb.firebaseapp.com",
-    databaseURL: "https://loans4u-475cb.firebaseio.com",
-    projectId: "loans4u-475cb",
-    storageBucket: "loans4u-475cb.appspot.com",
-    messagingSenderId: "555938648956"
-  };
-  firebase.initializeApp(config);
-</script>
+		  var config = {
+		    apiKey: "AIzaSyD5M5S0Xsz6Svi6zG5Bt23wzuhw8QpGoT4",
+		    authDomain: "loans4u-475cb.firebaseapp.com",
+		    databaseURL: "https://loans4u-475cb.firebaseio.com",
+		    projectId: "loans4u-475cb",
+		    storageBucket: "loans4u-475cb.appspot.com",
+		    messagingSenderId: "555938648956"
+		  };
+		  firebase.initializeApp(config);
+
+		  var admin = require("firebase-admin");
+
+			var serviceAccount = require("path/to/serviceAccountKey.json");
+
+			admin.initializeApp({
+			  credential: admin.credential.cert(serviceAccount),
+			  databaseURL: "https://loans4u-475cb.firebaseio.com"
+			});
+		</script>
+		var firebase = require("firebase");
 		<script src="Loan.js"></script>
 	</head>
 	<body align="center">

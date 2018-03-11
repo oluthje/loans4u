@@ -1,3 +1,5 @@
+
+
 var output;
 
     console.log(firebase);
@@ -5,17 +7,17 @@ var output;
     var indebtedTo = firebase.database().ref("IndebtedTo/");
 
 
-indebtedTo.set ({
-   Bill: {
-      number: 1,
-      Debt: 50.0,
-   },
-	
-   Amanda: {
-      number: 2,
-      Debt: 15.0,
-   }
-});
+		indebtedTo.set ({
+		   Bill: {
+		      number: 1,
+		      Debt: 50.0,
+		   },
+			
+		   Amanda: {
+		      number: 2,
+		      Debt: 15.0,
+		   }
+		});
     console.log(indebtedTo);
 
 function CreateDebt(){

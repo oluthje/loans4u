@@ -1,5 +1,6 @@
 {
   "projects": {
-    "Loans": "loans4u-c9bc1"
+    "Loans": "loans4u-c9bc1",
+    "default": "loans4u-c9bc1"
   }
 }
