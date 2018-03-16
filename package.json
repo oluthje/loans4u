@@ -1,0 +1,24 @@
+{
+  "name": "firebase",
+  "version": "1.0.0",
+  "description": "a website about loans and account balances\r read me is right here",
+  "main": "loan.js",
+  "dependencies": {
+    "firebase": "^4.11.0",
+    "firebase-admin": "^5.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oluthje/loans4u.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oluthje/loans4u/issues"
+  },
+  "homepage": "https://github.com/oluthje/loans4u#readme"
+}

@@ -1,22 +1,11 @@
-var output;
 
-function CreateDebt(){
- var Date1 = date();
- alert(Date1);
- var Name = document.getElementById("First_Name");
- var EndebtedTo = document.getElementById("Endebted1");
- var Debt_Amount = document.getElementById("Debt_Amount");
- var Interest_Rate = document.getElementById("Interest_Rate");
- var Interest_Period = document.getElementById("Interest_Period");
-}
-
-function date(){
-	var d = new Date();
-
-	return(d.getYear()*365 + d.getDate());
-
-}
-
-function checkLogin() {
-	window.location.href = "loans4u.html";
-}
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC_hVV3CO7DLnDjnM_u7_s7904B1EWIVTY",
+    authDomain: "loans4u-c9bc1.firebaseapp.com",
+    databaseURL: "https://loans4u-c9bc1.firebaseio.com",
+    projectId: "loans4u-c9bc1",
+    storageBucket: "loans4u-c9bc1.appspot.com",
+    messagingSenderId: "900725078179"
+  };
+  firebase.initializeApp(config);
